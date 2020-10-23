@@ -1,0 +1,103 @@
+.articulos img:hover:not(.current) {
+    transition: all 0.5s;
+    border-color: var(--hover-color);
+    background: var(--theme-gradient);
+    transform: scale(1.25) rotate(360deg);
+}
+.articulos h1:hover:not(.current) {
+    transition: all 0.5s;
+    border-color: var(--hover-color);
+    background: var(--theme-gradient);
+    transform: scale(1.25);
+    color: red;
+    padding-left: 30px;
+}
+.articulos ul:hover:not(.current) {
+    transition: all 0.5s;
+    border-color: var(--hover-color);
+    background: var(--theme-gradient);
+    transform: scale(1.25);
+    color: red;
+}
+
+.articulos p::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+.articulos p:hover:before {
+  transform: scaleX(1);
+  padding-left: 5px;
+}
+.art_laboral .h2::before{
+    content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, red, black);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+.art_laboral .h2:hover:before{
+  transform: scaleX(1);
+  padding-left: 5px;
+}
+.art_laboral .h2:hover:not(.current) {
+  transition: all 0.5s;
+    border-color: var(--hover-color);
+    background: var(--theme-gradient);
+    transform: scale(1.15);
+    margin-left: 85px;
+}
+.art_laboral a:hover:not(.current) {
+  transition: all 0.5s;
+  border-color: var(--hover-color);
+  background: var(--theme-gradient);
+  /*transform: scale(1.25);*/
+  margin-left: 110px;
+  background: linear-gradient(to right, #ACD000 , #7A8D1E);
+  border-radius: 3%;
+  font-size: 180%;
+  padding: 5px;
+  color: black;
+}
+.art_laboral p:hover:not(.current) {
+  transition: all 0.8s;
+  /*background:linear-gradient(to right, #78E495 , #CFF4D2);*/
+  background:rgba(255, 0, 0,0.6);
+  width: 90%;
+  margin-left: 3%;
+  font-size: 180%;
+  margin-top: 150px;
+  padding: 15px;
+  color: black;
+}
+.art_laboral::before{
+    content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(to right, red, black);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+.art_laboral:hover:before{
+  transform: scaleX(1);
+  padding-left: 5px;
+}

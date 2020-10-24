@@ -1,23 +1,62 @@
-.articulos img:hover:not(.current) {
+/*Encabezado*/
+.lbl_titulo_n:hover{
+  margin-left: 220px;
+  transform: scale(1.35);
+}
+.lbl_titulo_ap:hover{
+  margin-left: 100px;
+  position: absolute;
+  transform: scale(1.23);
+}
+    /*DATOS*/
+.datos_gral::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #93FD70 , #0D5051, #93FD70);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+.datos_gral:hover:before{
+  transform: scaleX(1);
+  padding-left: 5px;
+  margin-right: 50px;
+}
+.img_datos_w:hover{
+   transform: scale(1.25) rotate(360deg);  
+   transition: all 300ms;
+}
+
+/*FIN Encabezado*/
+
+.art_h1:hover{
+    transition: all 0.5s;
+    border-color: var(--hover-color);
+    background: var(--theme-gradient);
+    transform: scale(1.25);
+    color:  #F8CE0E;
+    margin-left: 130px;
+    padding: 2px;
+    position: absolute;
+    border-radius: 1px;
+}
+.articulos:hover .img_art{
     transition: all 0.5s;
     border-color: var(--hover-color);
     background: var(--theme-gradient);
     transform: scale(1.25) rotate(360deg);
 }
-.articulos h1:hover:not(.current) {
+.art_ul:hover:not(.current) {
     transition: all 0.5s;
     border-color: var(--hover-color);
     background: var(--theme-gradient);
     transform: scale(1.25);
-    color: red;
-    padding-left: 30px;
-}
-.articulos ul:hover:not(.current) {
-    transition: all 0.5s;
-    border-color: var(--hover-color);
-    background: var(--theme-gradient);
-    transform: scale(1.25);
-    color: red;
+    color: #93FD70;
 }
 
 .articulos p::before {
@@ -27,7 +66,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+  background: linear-gradient(to right, #93FD70 , #0D5051, #93FD70);
   z-index: 1;
   transform: scaleX(0);
   transform-origin: left;
@@ -85,7 +124,7 @@
   color: black;
 }
 .art_laboral::before{
-    content: '';
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -100,4 +139,74 @@
 .art_laboral:hover:before{
   transform: scaleX(1);
   padding-left: 5px;
+}
+/*modificacion para el perfil y objetivo*/
+/*.perfil_titulo::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(to right, red, black);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+.perfil_titulo:hover:before{
+  transform: scaleX(1);
+  padding-left: 5px;
+}*/
+.perfil_titulo:hover  .lbl_perfil{
+    margin-left: 560px;
+    /*transition: all 0.5s;*/
+    transition: all 300ms;
+    transform: scale(1.25) 
+}
+.perfil_titulo:hover  .img_perfil{
+  margin-left: 450px;
+  /*transition: all 0.5s;*/
+  transition: all 300ms;
+  transform: scale(1.05) rotate(360deg);
+}
+/*FIN DEL PERFIL HOVER*/
+.obj_titulo:hover  .lbl_obj{
+    margin-left: 560px;
+    /*transition: all 0.5s;*/
+    transition: all 300ms;
+    transform: scale(1.25);
+}
+.obj_titulo:hover  .img_obj{
+  margin-left: 450px;
+  /*transition: all 0.5s;*/
+  transition: all 300ms;
+  transform: scale(1.05) rotate(360deg);
+}
+/*FIN DE el perfil y objetivo*/
+
+/*Efectos en div educacion*/
+.edu_titulo:hover .lbl_edu{
+ margin-left: 160px;
+ /*transition: all 0.5s;*/
+ transition: all 300ms;
+ transform: scale(1.25);
+}
+.edu_titulo:hover .img_edu{
+ margin-left: 50px;
+ /*transition: all 0.5s;*/
+ transition: all 300ms;
+ transform: scale(1.10);
+}
+.exp_titulo:hover .lbl_exper{
+ margin-left: 180px;
+ /*transition: all 0.5s;*/
+ transition: all 300ms;
+ transform: scale(1.25);
+}
+.exp_titulo:hover .img_exper{
+ margin-left: 50px;
+ /*transition: all 0.5s;*/
+ transition: all 300ms;
+ transform: scale(1.10);
 }

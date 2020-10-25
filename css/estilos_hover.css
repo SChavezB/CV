@@ -210,3 +210,11 @@
  transition: all 300ms;
  transform: scale(1.10);
 }
+.caja1:hover{
+  transition: all 300ms;
+  transform: scale(1.10);
+}
+.caja1:hover .numero h2{
+  transition: all 300ms;
+  transform: scale(1.20);
+}

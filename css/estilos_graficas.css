@@ -1,0 +1,101 @@
+/*-- SECCION PARA LASGRAFICAS DE  SOFTWARE --*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+.software{
+    margin-top: 1645px;
+    height: 610px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    font-family: 'Oxygen', sans-serif;
+}
+.caja1{
+    position: absolute;
+    width: 300px;
+    height: 400px; 
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: red;
+}
+.caja2{
+    position: absolute;
+    width: 300px;
+    height: 400px; 
+    margin-top: 30px;
+    margin-left: 550px;
+    background-color: red;
+}
+.software .box{
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 30px 60px rgba(0,0,0.2);
+    color:black;
+}
+.software .porcentaje{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.software .porcentaje svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.software .porcentaje svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width:10;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset:440;
+    stroke-linecap: round;
+}
+.software .porcentaje svg circle:nth-child(1){
+    stroke-dashoffset:0;
+    stroke: #f3f3f3;
+}
+/* inicio % */
+.caja1 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [69]% */
+    stroke-dashoffset: calc(440px - (440px * 69) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja2 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [87]% */
+    stroke-dashoffset: calc(440px - (440px * 87) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+/* fin % */
+.software .porcentaje .numero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+}
+.software .porcentaje .numero h2{
+    font-size: 48px;
+}
+.software .porcentaje .numero h2 span{
+    font-size: 24px;
+}
+.software .texto{
+    padding: 10px 0 0;
+    color: #999;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+/*-- FIN DE LA SECCION PARA LASGRAFICAS DE  SOFTWARE --*/

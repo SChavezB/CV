@@ -61,13 +61,6 @@ body {
     background-color: rgba(3, 14, 20,0.1);
     position: absolute;
 }
-#software{
-    margin-top: 1645px;
-    height: 610px;
-    width: 100%;
-    background-color: blue;
-    position: absolute;
-}
 
 #idioma{
     margin-top: 2275px;

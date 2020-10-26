@@ -20,7 +20,7 @@ body {
 }
 
 .contenedor {
-    height: 3200px;
+    height: 4900px;
 	width: 1200px;
     background-color: rgba(207, 207, 207 ,0.4);
     background-position:center;
@@ -61,26 +61,19 @@ body {
     background-color: rgba(3, 14, 20,0.1);
     position: absolute;
 }
-#software{
-    margin-top: 1645px;
-    height: 610px;
-    width: 100%;
-    background-color: blue;
-    position: absolute;
-}
 
 #idioma{
-    margin-top: 2275px;
+    margin-top: 3975px;
     height: 170px;
     width: 100%;
-    background-color: green;
+    background-color: yellow;
     position: absolute;
 }
 #aptitudes{
-    margin-top: 2460px;
+    margin-top: 4160px;
     height: 735px;
     width: 100%;
-    background-color: green;
+    background-color: green ;
     position: absolute;
 }
 .lbl_titulo_n{
@@ -317,4 +310,23 @@ body {
     text-align: justify;
     width: 70%;
     font-size: 150%;
+}
+.softwareTitulo{
+    position: relative;
+    background-color: rgba(3, 14, 20,0.7);
+    height: 100px;
+    width: 100%;
+}
+.img_soft{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+.lbl_soft{
+    font-family: 'Merriweather', serif;
+    font-size: 230%;
+    text-align: center; 
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 30px;
 }

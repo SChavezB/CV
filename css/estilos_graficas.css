@@ -1,0 +1,256 @@
+/*-- SECCION PARA LASGRAFICAS DE  SOFTWARE --*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+.software{
+    margin-top: 1645px;
+    height: 1300px;
+    width: 100%;
+    background-color: rgb(62, 75, 101,0.8);
+    position: absolute;
+    font-family: 'Oxygen', sans-serif;
+}
+/*-- UBICACION DE LAS CAJAS INICIO --*/
+.caja1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 90px;
+    background: url(../img/java.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja2{
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    margin-top: 30px;
+    margin-left: calc(90px * 4);
+    background: url(../img/js.png);
+}
+.caja3{
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    margin-top: 30px;
+    margin-left: calc(90px * 7);
+    background: url(../img/jq.png);
+}
+.caja4{
+    position: absolute;
+    width: 200px;
+    height: 300px; 
+    margin-top: 30px;
+    margin-left: calc(90px * 10);
+    background: url(../img/net.png);
+}
+.caja5{
+    position: absolute;
+    margin-top: calc(30px * 14);
+    margin-left: 90px;
+    background: url(../img/php.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja6{
+    position: absolute;
+    margin-top: calc(30px * 14);
+    margin-left: calc(90px * 4);
+    background: url(../img/andoid.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja7{
+    position: absolute;
+    margin-top: calc(30px * 14);
+    margin-left: calc(90px * 7);
+    background: url(../img/visualbasic.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja8{
+    position: absolute;
+    margin-top: calc(30px * 14);
+    margin-left: calc(90px * 10);
+    background: url(../img/frontback.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja9{
+    position: absolute;
+    margin-top: calc(30px * 27);
+    margin-left: calc(90px * 1);
+    background: url(../img/sql.png);
+    width: 200px;
+    height: 300px; 
+}
+
+.caja10{
+    position: absolute;
+    margin-top: calc(30px * 27);
+    margin-left: calc(90px * 4);
+    background: url(../img/windows.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja11{
+    position: absolute;
+    margin-top: calc(30px * 27);
+    margin-left: calc(90px * 7);
+    background: url(../img/linux.png);
+    width: 200px;
+    height: 300px; 
+}
+.caja12{
+    position: absolute;
+    margin-top: calc(30px * 27);
+    margin-left: calc(90px * 10);
+    background: url(../img/mac.png);
+    width: 200px;
+    height: 300px; 
+}
+/*-- UBICACION DE LAS CAJAS FIN --*/
+.software .box{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff,#000;
+    box-shadow: 0 30px 60px rgba(0,0,0.2);
+    color:black;
+}
+.software .porcentaje{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.software .porcentaje svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.software .porcentaje svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width:10;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset:440;
+    stroke-linecap: round;
+}
+.software .porcentaje svg circle:nth-child(1){
+    stroke-dashoffset:0;
+    stroke: #f3f3f3;
+}
+/* inicio % */
+.caja1 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [90]% */
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja2 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [90]% */
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja3 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [20]% */
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja4 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [20]% */
+    stroke-dashoffset: calc(440px - (440px * 50) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja5 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [75]% */
+    stroke-dashoffset: calc(440px - (440px * 75) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja6 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [50]% */
+    stroke-dashoffset: calc(440px - (440px * 50) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja7 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [85]% */
+    stroke-dashoffset: calc(440px - (440px * 85) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja8 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [90]% */
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja9 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [90]% */
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja10 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [100]% */
+    stroke-dashoffset: calc(440px - (440px * 100) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja11 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [100]% */
+    stroke-dashoffset: calc(440px - (440px * 100) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+.caja12 .porcentaje svg circle:nth-child(2){
+    /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
+    /*                                      [80]% */
+    stroke-dashoffset: calc(440px - (440px * 80) / 100);
+    stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+}
+/* fin % */
+.software .porcentaje .numero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.software .porcentaje .numero h2{
+    font-size: 48px;
+}
+.software .porcentaje .numero h2 span{
+    font-size: 24px;
+}
+.software .texto{
+    padding: 10px 0 0;
+    /*color: #999;*/
+    color: white;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+/*-- FIN DE LA SECCION PARA LASGRAFICAS DE  SOFTWARE --*/
+
+/*-- SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE --*/
+.manejoSoftware{
+    margin-top: calc(1645px * 1.8);
+    height: 910px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    font-family: 'Oxygen', sans-serif;
+}
+/*-- FIN SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE 

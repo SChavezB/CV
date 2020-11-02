@@ -142,79 +142,79 @@
 }
 .software .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
-    stroke: #f3f3f3;
+    stroke: #0000;
 }
 /* inicio % */
 .caja1 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja2 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja3 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [20]% */
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja4 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [20]% */
-    stroke-dashoffset: calc(440px - (440px * 50) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja5 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [75]% */
-    stroke-dashoffset: calc(440px - (440px * 75) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja6 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [50]% */
-    stroke-dashoffset: calc(440px - (440px * 50) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja7 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [85]% */
-    stroke-dashoffset: calc(440px - (440px * 85) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja8 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja9 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja10 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [100]% */
-    stroke-dashoffset: calc(440px - (440px * 100) / 100);
+    stroke-dashoffset: calc(440px - (440px *  0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja11 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [100]% */
-    stroke-dashoffset: calc(440px - (440px * 100) / 100);
+    stroke-dashoffset: calc(440px - (440px *  0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 .caja12 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [80]% */
-    stroke-dashoffset: calc(440px - (440px * 80) / 100);
+    stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
 }
 /* fin % */

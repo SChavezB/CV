@@ -420,6 +420,7 @@
   box-shadow: 5px 10px 90px yellow;
   border-radius: 50%;
   stroke: red;
+  transition: all 2000ms;
 }
 .caja1:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -435,6 +436,7 @@
 .caja2:hover .numero{
   box-shadow: 5px 10px 90px #E9181D;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja2:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -450,6 +452,7 @@
 .caja3:hover .numero{
   box-shadow: 5px 10px 90px #009600;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja3:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -465,6 +468,7 @@
 .caja4:hover .numero{
   box-shadow: 5px 10px 90px #013EA8;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja4:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -480,6 +484,7 @@
 .caja5:hover .numero{
   box-shadow: 5px 10px 90px #009600;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja5:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -495,6 +500,7 @@
 .caja6:hover .numero{
   box-shadow: 5px 10px 90px yellow;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja6:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -510,6 +516,7 @@
 .caja7:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja7:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -525,6 +532,7 @@
 .caja8:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja8:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -540,6 +548,7 @@
 .caja9:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja9:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -555,6 +564,7 @@
 .caja10:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja10:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -570,6 +580,7 @@
 .caja11:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja11:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;
@@ -585,6 +596,7 @@
 .caja12:hover .numero{
   box-shadow: 5px 10px 90px white;
   border-radius: 50%;
+  transition: all 2000ms;
 }
 .caja12:hover .porcentaje svg circle:nth-child(1){
     stroke-dashoffset:0;

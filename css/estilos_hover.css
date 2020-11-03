@@ -498,7 +498,7 @@
     transition: all 2000ms;
 }
 .caja6:hover .numero{
-  box-shadow: 5px 10px 90px yellow;
+  box-shadow: 5px 10px 90px #3d9cb7;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -510,11 +510,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 50) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #3d9cb7;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja7:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #429b34;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -526,11 +526,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 85) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #429b34;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja8:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #b53a7d;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -542,11 +542,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 90) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #b53a7d;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja9:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #19FFA0;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -558,11 +558,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 90) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #19FFA0;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja10:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #32e0c4;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -574,11 +574,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 100) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #32e0c4;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja11:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #212121;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -590,11 +590,11 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 100) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #212121;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
 .caja12:hover .numero{
-  box-shadow: 5px 10px 90px white;
+  box-shadow: 5px 10px 90px #52057b;
   border-radius: 50%;
   transition: all 2000ms;
 }
@@ -606,6 +606,6 @@
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 80) / 100);
-    stroke: yellow;/*COLOR DE LA GRAFICA*/
+    stroke: #52057b;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }

@@ -245,12 +245,24 @@
 /*-- FIN DE LA SECCION PARA LASGRAFICAS DE  SOFTWARE --*/
 
 /*-- SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE --*/
-.manejoSoftware{
-    margin-top: calc(1645px * 1.8);
-    height: 910px;
+.contSoftware{
+    height: 100%;
     width: 100%;
-    background-color: red;
-    position: absolute;
-    font-family: 'Oxygen', sans-serif;
+    position: relative;
+    background-color: green;
+}
+.cajaSoft{
+    width:200px;
+    height:230px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 80px;
+    background-color:rgb(208,101,3);
+}
+div#cajaSf1{
+    background-color:rgb(22,145,190);
+}
+div#cajaSf2{
+    background-color:rgb(22,145,190);
 }
 /*-- FIN SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE 

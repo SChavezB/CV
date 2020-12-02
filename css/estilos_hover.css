@@ -211,7 +211,7 @@
  transform: scale(1.10);
 }
 .caja1:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja1:hover .numero h2{
@@ -224,12 +224,12 @@
 .caja1:hover .texto{
   background: rgb(62, 75, 101,0.8);
   border-radius: 3%;
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.60);
   margin-top: 20px;
 }
 .caja2:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja2:hover .numero h2{
@@ -246,7 +246,7 @@
   margin-top: 20px;
 }
 .caja3:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja3:hover .numero h2{
@@ -263,7 +263,7 @@
   margin-top: 20px;
 }
 .caja4:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja4:hover .numero h2{
@@ -280,7 +280,7 @@
   margin-top: 20px;
 }
 .caja5:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja5:hover .numero h2{
@@ -297,7 +297,7 @@
   margin-top: 20px;
 }
 .caja6:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja6:hover .numero h2{
@@ -314,7 +314,7 @@
   margin-top: 20px;
 }
 .caja7:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja7:hover .numero h2{
@@ -331,7 +331,7 @@
   margin-top: 20px;
 }
 .caja8:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja8:hover .numero h2{
@@ -348,7 +348,7 @@
   margin-top: 20px;
 }
 .caja9:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja9:hover .numero h2{
@@ -365,7 +365,7 @@
   margin-top: 20px;
 }
 .caja10:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja10:hover .numero h2{
@@ -382,7 +382,7 @@
   margin-top: 20px;
 }
 .caja11:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja11:hover .numero h2{
@@ -399,7 +399,7 @@
   margin-top: 20px;
 }
 .caja12:hover{
-  transition: all 300ms;
+  transition: all 0.5s;
   transform: scale(1.40);
 }
 .caja12:hover .numero h2{

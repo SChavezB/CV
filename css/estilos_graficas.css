@@ -16,6 +16,7 @@
     background: url(../img/java.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja2{
     position: absolute;
@@ -24,6 +25,7 @@
     margin-top: 30px;
     margin-left: calc(90px * 4);
     background: url(../img/js.png);
+    transition: all 0.5s;
 }
 .caja3{
     position: absolute;
@@ -32,6 +34,7 @@
     margin-top: 30px;
     margin-left: calc(90px * 7);
     background: url(../img/jq.png);
+    transition: all 0.5s;
 }
 .caja4{
     position: absolute;
@@ -40,6 +43,7 @@
     margin-top: 30px;
     margin-left: calc(90px * 10);
     background: url(../img/net.png);
+    transition: all 0.5s;
 }
 .caja5{
     position: absolute;
@@ -48,6 +52,7 @@
     background: url(../img/php.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja6{
     position: absolute;
@@ -56,6 +61,7 @@
     background: url(../img/andoid.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja7{
     position: absolute;
@@ -64,6 +70,7 @@
     background: url(../img/visualbasic.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja8{
     position: absolute;
@@ -72,6 +79,7 @@
     background: url(../img/frontback.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja9{
     position: absolute;
@@ -80,6 +88,7 @@
     background: url(../img/sql.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 
 .caja10{
@@ -89,6 +98,7 @@
     background: url(../img/windows.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja11{
     position: absolute;
@@ -97,6 +107,7 @@
     background: url(../img/linux.png);
     width: 200px;
     height: 300px; 
+    transition: all 0.5s;
 }
 .caja12{
     position: absolute;
@@ -105,6 +116,7 @@
     background: url(../img/mac.png);
     width: 200px;
     height: 300px; 
+   transition: all 0.5s;
 }
 /*-- UBICACION DE LAS CAJAS FIN --*/
 .software .box{
@@ -258,11 +270,21 @@
     margin-top: 45px;
     margin-left: 80px;
     background-color:rgb(208,101,3);
+    transition: all 0.5s;
 }
+.cajaSoft:hover{
+     transition: all 0.5s;
+transform: scale(1.25);
+}
+        /*COLOR POR CAJA*/
 div#cajaSf1{
-    background-color:rgb(22,145,190);
+    background-color:rgb(22,145,330);
 }
+
 div#cajaSf2{
     background-color:rgb(22,145,190);
 }
+
+        /*FIN COLOR POR CAJA*/
+
 /*-- FIN SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE 

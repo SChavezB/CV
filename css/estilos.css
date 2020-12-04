@@ -20,9 +20,9 @@ body {
 }
 
 .contenedor {
-    height: 4900px;
+    height: 4990px;
 	width: 1200px;
-    background-color: rgba(207, 207, 207 ,0.4);
+    background-color: rgba(207, 207, 207 ,0.2);
     background-position:center;
     margin-top: 70px; 
     margin-left: auto;
@@ -339,7 +339,7 @@ body {
     margin-top: calc(1645px * 1.8);
     height: 2090px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(62, 75, 101,0.08);
     position: absolute;
     font-family: 'Oxygen', sans-serif;
 }

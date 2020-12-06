@@ -609,3 +609,22 @@
     stroke: #52057b;/*COLOR DE LA GRAFICA*/
     transition: all 2000ms;
 }
+#idioma:hover{
+    transform: scale(1.25);
+    border-radius: 20px;
+    transition: all .5s;
+}
+#idioma:hover .progresoIdioma{
+    width: 800px;
+    opacity: 2;
+    transition: all .5s;
+}
+#idioma:hover .textoIdioma{
+    margin-left: 38%;
+    transition: all .5s;
+    opacity: 1;
+}
+#idioma:hover .nivelIngles{
+    transition: all .5s;
+    opacity: 1;
+}

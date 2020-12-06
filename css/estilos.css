@@ -22,7 +22,7 @@ body {
 .contenedor {
     height: 4990px;
 	width: 1200px;
-    background-color: rgba(207, 207, 207 ,0.2);
+    background-color: rgba(207, 207, 207 ,0.02);
     background-position:center;
     margin-top: 70px; 
     margin-left: auto;
@@ -63,14 +63,18 @@ body {
 }
 
 #idioma{
-    margin-top: calc(3975px * 2);
-    height: 170px;
+    margin-top: calc(3975px * 1.27);
+    height: 200px;
     width: 100%;
-    background-color: yellow;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: absolute;
+    transition: all .5s;
+
 }
 #aptitudes{
-    margin-top: calc(4160px * 2);
+    margin-top: calc(4160px * 1.28);
     height: 735px;
     width: 100%;
     background-color: green ;
@@ -121,7 +125,9 @@ body {
     position: absolute;
     width: 1200px;
     height: 100px;
-    background-color: rgba(3, 14, 20,0.7);
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #16222A, #3A6073);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #16222A, #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Cambria;
     font-size: 150%;
     border-bottom-color: #00FF00;
@@ -159,7 +165,10 @@ body {
     position: absolute;
     width: 1200px;
     height: 100px;
-   background-color: rgba(3, 14, 20,0.7);
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .lbl_obj{
     font-family: 'Merriweather', serif;
@@ -313,7 +322,10 @@ body {
 }
 .softwareTitulo{
     position: relative;
-    background-color: rgba(3, 14, 20,0.7);
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #16222A ,#3A6073); 
+    background: linear-gradient(to right, #16222A ,#3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     height: 100px;
     width: 100%;
 }
@@ -345,7 +357,9 @@ body {
 }
 .titulo_ms{
     position: relative;
-    background-color: black;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100px;
     width: 100%;
 }
@@ -359,4 +373,34 @@ body {
     position: absolute;
     margin-left: 120px;
     margin-top: 28px;
+}
+.progresoIdioma{
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    background: #AAFFA9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    transition: all .5s;
+    opacity: 0.02;
+}
+.textoIdioma{
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 50px;
+    font-size: 40px;
+    position: relative;
+    transition: all 3s;
+}
+.nivelIngles{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 250%;
+    opacity: 0.002;
+    transition: all .5s;
 }

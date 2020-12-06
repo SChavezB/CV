@@ -4,7 +4,7 @@
     margin-top: 1645px;
     height: 1300px;
     width: 100%;
-    background-color: rgb(62, 75, 101,0.8);
+    background-color: rgb(62, 75, 101,0.09);
     position: absolute;
     font-family: 'Oxygen', sans-serif;
     transition: all 0.5s;
@@ -163,72 +163,84 @@
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja2 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja3 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [20]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja4 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [20]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja5 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [75]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja6 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [50]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja7 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [85]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja8 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja9 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [90]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja10 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [100]% */
     stroke-dashoffset: calc(440px - (440px *  0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja11 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [100]% */
     stroke-dashoffset: calc(440px - (440px *  0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 .caja12 .porcentaje svg circle:nth-child(2){
     /* AQUI SE CAMBIA EL PORCENTAJE DE LA GRAFICA */
     /*                                      [80]% */
     stroke-dashoffset: calc(440px - (440px * 0) / 100);
     stroke: #03A9F4;/*COLOR DE LA GRAFICA*/
+    transition: all 1s;
 }
 /* fin % */
 .software .porcentaje .numero{
@@ -305,7 +317,7 @@ p.texto{
     color:white;
     text-align:center;
     padding-top:5px;
-    opacity: .2;
+    opacity: .02;
     transition: all 0.5s;
 }
         /*COLOR POR CAJA*/
@@ -392,5 +404,5 @@ div#cajaSf26{
 }
 
         /*FIN COLOR POR CAJA*/
-
 /*-- FIN SECCION PARA LASGRAFICAS DEL MANEJO DE SOFTWARE 
+/* GRAFICAS PARA EL IDIOMA */
